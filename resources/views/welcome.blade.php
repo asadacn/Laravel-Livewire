@@ -65,11 +65,14 @@
        <livewire:styles>
     </head>
     <body>
-<div class="text-center display-4 my-4">Laravel Livewire</div>
+ {{--<div class="text-center display-4 my-4">Laravel Livewire</div>
         <livewire:counter>
 
-        <livewire:databind>
-
+        <livewire:databind> --}}
+<div class="text-center">
+        @include('contacts')
+</div>
         <livewire:scripts>
+
     </body>
 </html>
